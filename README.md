@@ -12,7 +12,7 @@ For this project, write a smart contract that implements the require(), assert()
 3. to start the truffle enter truffle develop on the terminal
 4. enter compile and migrate on the terminal
 5. enter this on the terminal 'instance.<functionName>(<argument>)' (ex: (instance.requireOddNumber(9))
-
+6. To see the value of how many Odd numbers you input enter ((await instance.Odd()).toString())
 
 ### Executing program
 
@@ -20,5 +20,5 @@ For this project, write a smart contract that implements the require(), assert()
 
 
 ## Authors
-
-Contributors names and contact info
+Adam Garcia
+auegarcia@mymail.mapua.edu.ph
