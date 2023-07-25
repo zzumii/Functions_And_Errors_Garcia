@@ -19,7 +19,7 @@ For this project, write a smart contract that implements the require(), assert()
 
 To see the value of how many Odd numbers you input enter (await instance.Odd()).toString()
 
-##Callable Variables and Functions
+## Callable Variables and Functions
 
  uint public Odd;
 
