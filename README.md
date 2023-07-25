@@ -7,6 +7,7 @@ Functions and Errors - ETH + AVAX
 For this project, write a smart contract that implements the require(), assert() and revert() statements.
 
 ## Getting Started
+### Executing program
 1. open gitpod.io#https://github.com/zzumii/Functions_And_Errors_Garcia and create a workspace
 2. run on the terminal 'npm install -g truffle'
 3. to start the truffle enter truffle develop on the terminal
@@ -15,8 +16,16 @@ For this project, write a smart contract that implements the require(), assert()
 6. enter this on the terminal 'instance.<functionName>(<argument>)' (ex: (instance.dorequireOdd(9))
 7. To see the value of how many Odd numbers you input enter (await instance.Odd()).toString()
 
-### Executing program
 
+##Callable Variables and Functions
+
+uint public evenCount
+
+function requireEvenNumber(uint number) external
+
+function assertEvenNumber(uint number) external
+
+function revertEvenNumber(uint number) external
 
 
 
