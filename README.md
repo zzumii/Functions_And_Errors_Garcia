@@ -14,19 +14,20 @@ For this project, write a smart contract that implements the require(), assert()
 4. enter compile and migrate on the terminal
 5. enter instance = await FunctionsAndErrors.deployed()
 6. enter this on the terminal 'instance.<functionName>(<argument>)' (ex: (instance.dorequireOdd(9))
-7. To see the value of how many Odd numbers you input enter (await instance.Odd()).toString()
 
+## Note
+
+To see the value of how many Odd numbers you input enter (await instance.Odd()).toString()
 
 ##Callable Variables and Functions
 
-uint public evenCount
+ uint public Odd;
 
-function requireEvenNumber(uint number) external
+ function dorequireOdd(uint number) external {
 
-function assertEvenNumber(uint number) external
+ function doassertOdd(uint number) external {
 
-function revertEvenNumber(uint number) external
-
+ function dorevertOdd(uint number) external {
 
 
 ## Authors
